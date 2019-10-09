@@ -13,6 +13,6 @@ object Main extends App {
     res.end(s"Hello from Scala.js! ")//(${req.path})
   })
 
-  server.listen( port, () => println(s"server is listening on $port") )
+  //server.listen( port, () => println(s"server is listening on $port") )
 
 }
